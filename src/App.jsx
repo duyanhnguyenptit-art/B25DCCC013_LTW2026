@@ -50,9 +50,9 @@ const StudentTable = ({ students, onDelete }) => {
 
 const App = () => {
   const [students, setStudents] = useState([
-    { id: 1, name: 'Nguyễn Văn An', score: 8.5, classRoom: 'IT1' },
-    { id: 2, name: 'Trần Thị Bình', score: 4.0, classRoom: 'IT1' },
-    { id: 3, name: 'Lê Hoàng Cường', score: 9.2, classRoom: 'IT2' }
+    { id: 1, name: 'Nguyễn Danh', score: 8.5, classRoom: 'IT1' },
+    { id: 2, name: 'Trần Thị Hoa', score: 4.0, classRoom: 'IT1' },
+    { id: 3, name: 'Lê Hoàng Phong', score: 9.2, classRoom: 'IT2' }
   ]);
 
   const [form, setForm] = useState({ name: '', score: '', classRoom: '' });
